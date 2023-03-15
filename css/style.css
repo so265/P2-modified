@@ -21,6 +21,7 @@ h2,
 h3 {
 	font-family: 'Archivo', sans-serif;
 	font-style: normal;
+	
 }
 
 h2 {
@@ -104,8 +105,20 @@ p {
 	line-height: 17px;
 	color: var(--drak-grey-color);
 }
+/*****Deplacement css ici nouvelle class crée ds html section"Les menmbres fondateurs******/
+.sectionLinearGradientBackground {
+	background: linear-gradient(to right, var(--main-color), var(--second-color));
+}
 
+.whiteContentSection h2,
+.whiteContentSection h3,
+.whiteContentSection p {
+	color:  white;
+}
 
+.textCenter {         /**Déplacement css ici**/
+	text-align: center;
+}
 /***************/
 .directionRow {
 	display: flex;
@@ -119,19 +132,11 @@ p {
 	align-items: center;
 }
 
-.sectionLinearGradientBackground {
-	background: linear-gradient(to right, var(--main-color), var(--second-color));
-}
 
-.whiteContentSection h2,
-.whiteContentSection h3,
-.whiteContentSection p {
-	color:  white;
-}
 
-.textCenter {
-	text-align: center;
-}
+
+
+
 
 /***************/
 .sectionLightGreyBackground {
